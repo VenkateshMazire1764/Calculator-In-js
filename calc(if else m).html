@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num =  parseInt(window.prompt('\n 1)Add \n 2)Sub \n 3)Multiply \n 4)Divide'))
+        if (num ==1){
+            var no1 = parseInt(window.prompt("Enter First Number:"));
+            var no2 = parseInt(window.prompt("Enter Second Number:"));
+            var res = no1 + no2;
+            alert("Addition:" +res);
+        }
+        else if (num ==2){
+            var no1 = parseInt(window.prompt("Enter First Number:"));
+            var no2 = parseInt(window.prompt("Enter Second Number:"));
+            var res = no1 - no2;
+            alert("Subtraction:" +res);
+        }
+        else if (num ==3){
+            var no1 = parseInt(window.prompt("Enter First Number:"));
+            var no2 = parseInt(window.prompt("Enter Second Number:"));
+            var res = no1 * no2;
+            alert("Multiplication:" +res);
+        }
+        else if (num ==4){
+            var no1 = parseInt(window.prompt("Enter First Number:"));
+            var no2 = parseInt(window.prompt("Enter Second Number:"));
+            var res = no1 / no2;
+            alert("Division:" +res);
+        }
+    </script>
+</body>
+</html>
